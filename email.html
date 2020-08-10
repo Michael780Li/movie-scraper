@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+  "
+>
+  <head style="box-sizing: border-box;">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" style="box-sizing: border-box;" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      style="box-sizing: border-box;"
+    />
+
+    <style style="box-sizing: border-box;">
+      .page_container {
+        background: #1d1e22;
+        width: 80%;
+        margin: auto;
+      }
+      .content_container {
+        width: 90%;
+        background: #1f2024;
+        margin-top: 100px;
+        margin: auto;
+        grid-column: auto;
+
+        padding: 10px;
+      }
+
+      .introduction {
+        background-color: #fff3cd;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        border-radius: 10px;
+      }
+    </style>
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+      style="box-sizing: border-box;"
+    />
+
+    <title style="box-sizing: border-box;">Movie Madness</title>
+  </head>
+  <body
+    style="
+      box-sizing: border-box;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol';
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+
+      text-align: left;
+
+      min-width: 992px !important;
+    "
+  >
+    <div style="background: #515151; width: 80%; margin: auto;">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoceO-E6vF3-7_EHrv1zabzTBSRjohnuQuWA&usqp=CAU"
+        width="40px"
+        height="40px"
+        class="d-inline-block align-top"
+        alt=""
+        style="
+          box-sizing: border-box;
+          vertical-align: top !important;
+          border-style: none;
+          page-break-inside: avoid;
+          display: inline-block;
+          margin-left: 10px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        "
+      />
+      <h4
+        style="
+          color: white;
+          display: inline-block;
+          margin-top: 0;
+          margin-bottom: 5px;
+          font-size: 30px;
+        "
+      >
+        MovieMadness
+      </h4>
+    </div>
+    <div
+      class="page_container"
+      style="
+        box-sizing: border-box;
+        background: #1d1e22;
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+      "
+    >
+      <div class="header" style="box-sizing: border-box;">
+        <!-- Image and text -->
+      </div>
+      <div
+        class="introduction"
+        role="alert"
+        style="
+          box-sizing: border-box;
+          background-color: #fff3cd;
+          padding: 10px;
+          margin-top: 0px;
+          margin-bottom: 10px;
+          margin-right: auto;
+          margin-left: auto;
+          width: 90%;
+          border-radius: 10px;
+        "
+      >
+        <h4
+          class="alert-heading"
+          style="
+            box-sizing: border-box;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            font-family: inherit;
+            font-weight: 500;
+            line-height: 1.2;
+            color: inherit;
+            font-size: 1.5rem;
+          "
+        >
+          Welcome!
+        </h4>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            orphans: 3;
+            widows: 3;
+          "
+        >
+          The following project web scrapes the IMDB website for movies in
+          theaters this week, using the Beautiful Soup python library. A similar
+          email is auto-generated weekly to notify you on movies in theaters
+          this week.
+        </p>
+        <hr
+          style="
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+          "
+        />
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            orphans: 3;
+            widows: 3;
+          "
+        >
+          For more information, visit the IMDB website at:<br
+            style="box-sizing: border-box;"
+          />
+          <a
+            href="https://www.imdb.com/movies-in-theaters/"
+            class="alert-link"
+            style="
+              box-sizing: border-box;
+              color: #007bff;
+              text-decoration: underline;
+              background-color: transparent;
+              -webkit-text-decoration-skip: objects;
+              font-weight: 700;
+            "
+            >https://www.imdb.com/movies-in-theaters/
+          </a>
+        </p>
+      </div>
+
+      <div
+        class="content_container"
+        style="
+          box-sizing: border-box;
+          width: 90%;
+          background: #1f2024;
+          margin-top: 100px;
+          margin: auto;
+          grid-column: auto;
+          padding: 10px;
+        "
+      >
+        <div id="movie_container" style="box-sizing: border-box;"></div>
+      </div>
+
+      <div class="footer" style="box-sizing: border-box;">
+        <div
+          class="alert alert-primary"
+          role="alert"
+          style="
+            box-sizing: border-box;
+            position: relative;
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: 0.25rem;
+            color: #004085;
+            background-color: #cce5ff;
+            border-color: #b8daff;
+          "
+        >
+          <p
+            style="
+              box-sizing: border-box;
+              margin-top: 0;
+              margin-bottom: 1rem;
+              orphans: 3;
+              widows: 3;
+            "
+          >
+            Check out my github here:<br style="box-sizing: border-box;" />
+            <a
+              href="https://www.imdb.com/movies-in-theaters/"
+              class="alert-link"
+              style="
+                box-sizing: border-box;
+                color: #002752;
+                text-decoration: underline;
+                background-color: transparent;
+                -webkit-text-decoration-skip: objects;
+                font-weight: 700;
+              "
+              >CHANGE THIasdfasdfasdfasdfasdfasdfasdfasdfsadfasdfS PLS
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  </body>
+</html>
