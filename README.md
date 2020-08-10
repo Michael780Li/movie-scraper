@@ -13,4 +13,4 @@ This program web scrapes the IMDB website:
 https://www.imdb.com/movies-in-theaters/
 
 The program will send and email in the following form:
-
+![](email_page.png)
